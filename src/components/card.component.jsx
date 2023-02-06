@@ -22,17 +22,98 @@ import theTwoTowers from "../images/theTwoTowers.jpeg"
 import truman from "../images/truman.jpeg"
 
 
+
 function Card(){
-    const [poster, setPoster] = useState([americanBeauty, silverLining,
-    casablanca, crow, deadPoet, fellowship, forrestGump, karateKid, matrix,
-    maverick, oneFlew, parasite, princessBride, psycho, returnOfTheKing,
-    shawshankRedemption, silverLining, sunshine, theMartian, theTwoTowers,
-    truman
-    ]);
+
+    const images = [
+        {
+            src: americanBeauty,
+            title: "American Beauty"
+        },
+        {
+            src: casablanca,
+            title: "Casablanca"
+        },
+        {
+            src: crow,
+            title: "Crow"
+        },
+        {
+            src: deadPoet,
+            title: "Dead Poet Society"
+        },
+        {
+            src: fellowship,
+            title: "Lord Of The Rings: The Fellowship Of The Ring"
+        },
+        {
+            src: forrestGump,
+            title: "Forrest Gump",
+        },
+        {
+            src: karateKid,
+            title: "Karate Kid"
+        },
+        {
+            src: matrix,
+            title: "The Matrix"
+        },
+        {
+            src: maverick,
+            title: "The Maverick"
+        },
+        {
+            src: oneFlew,
+            title: "One Flew Over The Cuckoo's Next"
+        },
+        {
+            src: parasite,
+            title: "Parasite"
+        },
+        {
+            src: princessBride,
+            title: "The Princess Bride"
+        },
+        {
+            src: psycho,
+            title: "Psycho"
+        },
+        {
+            src: returnOfTheKing,
+            title: "Lord Of The Rings: The Return Of The King"
+        },
+        {
+            src: shawshankRedemption,
+            title: "The Shawshank Redemption"
+        },
+        {
+            src: silverLining,
+            title: "The Silver Lining Playbook"
+        },
+        {
+            src: sunshine,
+            title: "The Eternal Sunshine Of The Spotless Mind"
+        },
+        {
+            src: theMartian,
+            title: "The Martian"
+        },
+        {
+            src: theTwoTowers,
+            title: "Lord Of The Rings: The Two Towers"
+        },
+        {
+            src: truman,
+            title: "The Truman's Show"
+        }
+    ]
+    const [poster, setPoster] = useState(images)
+
+    console.log(poster);
 
     return(
         <div className="cardContainer">
-        <img className="card" src={poster[3]} alt="movie poster"></img>
+        <img className="card" src={poster[5].src} alt={poster[5].title}></img>
         </div>
     )
 }
