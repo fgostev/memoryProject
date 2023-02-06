@@ -1,8 +1,9 @@
+import GameBoard from "./components/gameBoard.component";
 
 function App() {
   return (
     <div className="App">
-          Boooo!
+          <GameBoard />
     </div>
   );
 }
