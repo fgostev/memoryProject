@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 import americanBeauty from "../images/americanBeauty.jpeg";
 import casablanca from "../images/casablanca.jpeg"
@@ -107,13 +107,33 @@ function Card(){
             title: "The Truman's Show"
         }
     ]
-    const [poster, setPoster] = useState(images)
+    const [posters, setPosters] = useState(images);
 
-    console.log(poster);
+
+
+    const randomizeSort = (array) => {
+        return array.sort(() => Math.random() - 0.5);
+    }
+
+    const randomizePosters = () => {
+        let postersArray = posters;
+        let randomizedArray = randomizeSort([...postersArray]);
+        setPosters(randomizedArray);
+        console.log(posters);
+    }
 
     return(
+        
+
         <div className="cardContainer">
-        <img className="card" src={poster[5].src} alt={poster[5].title}></img>
+        {posters.map((poster) => {
+            
+          return(
+            <button onClick={randomizePosters}>  
+          <img className='card' src={poster.src} alt={poster.title} />
+        </button>
+     )})}
+
         </div>
     )
 }
