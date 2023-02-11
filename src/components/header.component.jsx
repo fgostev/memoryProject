@@ -1,4 +1,4 @@
-const Header =({score, setScore}) =>{
+const Header =({score}) =>{
     return(
         <div id="header"> 
         <div id="headerLeft">
