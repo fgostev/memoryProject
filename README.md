@@ -17,4 +17,11 @@ Create game mechanics - add event listeners on each card
     -Game function will have the logic.
   
   Plan for today:
-  -
+  - set up the functionality for the app"
+  -Work on the leaderboard function. The leaderboard must:
+   1) Remember all clicked cards. 
+   -Push into an array every time a card clicked. 
+   -Check every time click on the card if the card matches any itme on the array
+   -If the card matches - reset score. 
+   2) If the card has been clicked before place the best score and
+   restart. 
