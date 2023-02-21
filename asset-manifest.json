@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/memoryProject/static/css/main.1db545f5.css",
+    "main.js": "/memoryProject/static/js/main.f1e9c54c.js",
+    "static/media/background.jpg": "/memoryProject/static/media/background.fae3f4001f36354242cd.jpg",
+    "static/media/oneFlew.jpeg": "/memoryProject/static/media/oneFlew.f059847b48f0e02e47fc.jpeg",
+    "static/media/parasite.jpeg": "/memoryProject/static/media/parasite.8742258c628ec15b3d39.jpeg",
+    "static/media/returnOfTheKing.jpeg": "/memoryProject/static/media/returnOfTheKing.a4cec399889805764075.jpeg",
+    "static/media/silverLining.jpeg": "/memoryProject/static/media/silverLining.295043ac7e0ea825ae84.jpeg",
+    "static/media/theTwoTowers.jpeg": "/memoryProject/static/media/theTwoTowers.3cbfbe63e1bacfd15762.jpeg",
+    "static/media/fellowship.jpeg": "/memoryProject/static/media/fellowship.b775384fa033486b113c.jpeg",
+    "static/media/shawshankRedemption.jpeg": "/memoryProject/static/media/shawshankRedemption.96bae22cc83bbc384741.jpeg",
+    "static/media/psycho.jpeg": "/memoryProject/static/media/psycho.ef1060f5f8d4263f9e60.jpeg",
+    "static/media/karateKid.jpeg": "/memoryProject/static/media/karateKid.f20277482db63fac6a18.jpeg",
+    "static/media/themartian.jpeg": "/memoryProject/static/media/themartian.43aa2432ff9508d31970.jpeg",
+    "static/media/americanBeauty.jpeg": "/memoryProject/static/media/americanBeauty.5201495363d7499f861d.jpeg",
+    "static/media/forrestgump.jpeg": "/memoryProject/static/media/forrestgump.75e14f2804a77e7f3d5b.jpeg",
+    "static/media/crow.jpeg": "/memoryProject/static/media/crow.810edc6562603c8e975b.jpeg",
+    "static/media/matrix.jpeg": "/memoryProject/static/media/matrix.9027645058db1670a396.jpeg",
+    "static/media/sunshine.jpeg": "/memoryProject/static/media/sunshine.131976b192df45f991ab.jpeg",
+    "index.html": "/memoryProject/index.html",
+    "main.1db545f5.css.map": "/memoryProject/static/css/main.1db545f5.css.map",
+    "main.f1e9c54c.js.map": "/memoryProject/static/js/main.f1e9c54c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1db545f5.css",
+    "static/js/main.f1e9c54c.js"
+  ]
+}
