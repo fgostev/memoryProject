@@ -1,3 +1,5 @@
+Live @https://fgostev.github.io/memoryProject/
+
 Memory game project for https://www.theodinproject.com/ curriculum.
 
 Objective of the project is to create an application and practice react hooks.
