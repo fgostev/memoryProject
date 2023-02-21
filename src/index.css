@@ -8,6 +8,40 @@ html {
     font-size: 2rem;
   }
 
+
+#header{
+  display: flex;
+  font-family: 'Fuzzy Bubbles', cursive, 'open sand', sans-serif; 
+  justify-content: space-between;
+  color: rgb(64, 62, 53);
+  text-shadow: 1px 1px 2px white;
+}
+
+
+
+
+.cards{
+  display:  flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.cardContainer{
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.56);
+  filter: drop-shadow(0 0 0.5rem rgb(129, 60, 74));
+}
+
 .card{
     width: 280px;
+}
+
+.card:hover{
+  filter: brightness(130%);
+  cursor: pointer;
+}
+
+.card:active {
+  transform: scale(0.98);
 }
