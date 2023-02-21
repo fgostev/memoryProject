@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/memoryProject/static/css/main.1db545f5.css",
-    "main.js": "/memoryProject/static/js/main.f1e9c54c.js",
+    "main.css": "/memoryProject/static/css/main.7aae3a5f.css",
+    "main.js": "/memoryProject/static/js/main.1a7b520e.js",
     "static/media/background.jpg": "/memoryProject/static/media/background.fae3f4001f36354242cd.jpg",
     "static/media/oneFlew.jpeg": "/memoryProject/static/media/oneFlew.f059847b48f0e02e47fc.jpeg",
     "static/media/parasite.jpeg": "/memoryProject/static/media/parasite.8742258c628ec15b3d39.jpeg",
@@ -19,11 +19,11 @@
     "static/media/matrix.jpeg": "/memoryProject/static/media/matrix.9027645058db1670a396.jpeg",
     "static/media/sunshine.jpeg": "/memoryProject/static/media/sunshine.131976b192df45f991ab.jpeg",
     "index.html": "/memoryProject/index.html",
-    "main.1db545f5.css.map": "/memoryProject/static/css/main.1db545f5.css.map",
-    "main.f1e9c54c.js.map": "/memoryProject/static/js/main.f1e9c54c.js.map"
+    "main.7aae3a5f.css.map": "/memoryProject/static/css/main.7aae3a5f.css.map",
+    "main.1a7b520e.js.map": "/memoryProject/static/js/main.1a7b520e.js.map"
   },
   "entrypoints": [
-    "static/css/main.1db545f5.css",
-    "static/js/main.f1e9c54c.js"
+    "static/css/main.7aae3a5f.css",
+    "static/js/main.1a7b520e.js"
   ]
 }
