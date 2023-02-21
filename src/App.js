@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 
 // import GameBoard from "./components/gameBoard.component";
 import Header from "./components/header.component";
